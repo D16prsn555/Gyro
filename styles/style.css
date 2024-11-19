@@ -1,0 +1,319 @@
+* 
+{
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI;
+}
+
+.container 
+{
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+header 
+{
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.up_header 
+{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.header_info 
+{
+}
+
+.header_button 
+{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+.header_button 
+{
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: orange;
+  max-width: 184px;
+  height: 37px;
+  border: none;
+  width: 100%;
+}
+
+.down_header 
+{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+
+.header_logo 
+{
+}
+
+.nav_button 
+{
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav 
+{
+}
+
+.main_content 
+{
+  height: 737px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  background-image: url("../img/fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+}
+
+.main_image 
+{
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.img_container 
+{
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.main_info 
+{
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding-top: 250px;
+  max-width: 700px;
+}
+
+.button_catalog 
+{
+  width: 164px;
+  height: 50px;
+  border-radius: 10px;
+  color: #000;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.main_info_article 
+{
+  font-size: 56px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.main_info_text 
+{
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+
+.advantages_container 
+{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.advantages_box 
+{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.advantages_icons_container 
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages_card 
+{
+  height: 100%;
+  min-width: 160px;
+}
+
+h2 
+{
+  font-size: 34px;
+  font-weight: lighter;
+}
+
+.advantages_card_img 
+{
+  margin: 0 auto;
+}
+
+.about_text 
+{
+  line-height: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.about_Us 
+{
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+
+.subscription_container 
+{
+  width: 100%;
+  height: 94px;
+  background-color: #ffa019;
+}
+
+.subscription_box 
+{
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.subscription_text 
+{
+  max-width: 230px;
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.subscription_button 
+{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  user-select: none;
+  background: rgb(255, 255, 255);
+  padding: 0.7em 4em;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.second_floor 
+{
+  height: 100%;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.features 
+{
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.features_container 
+{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: lighter;
+  max-width: 900px;
+}
+
+.features_text 
+{
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+
+.catalog_name 
+{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.catalog_container 
+{
+  height: 100%;
+  width: 100%;
+  background-color: #fbfbfb;
+}
+
+.catalog_nav_container 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catalog_button 
+{
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.catalog_button:hover 
+{
+  background-color: #ffa019;
+  color: #fff;
+}
+
+.catalog_examples 
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.example_card 
+{
+  max-width: 260px;
+  height: 388px;
+  background-color: #fff;
+}
+
+.catalog_img 
+{
+  max-width: 260px;
+}
